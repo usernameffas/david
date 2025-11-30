@@ -21,9 +21,9 @@ def index():
 @app.route('/menu')
 def menu():
     return render_template('menu.html')
-@app.route("/test2")
-def test2():
-    return render_template('test2.html')
+@app.route("/test1")
+def test1():
+    return render_template('test1.html')
 
 if __name__ == '__main__':
     # 문제 8: app.run() 실행 시 debug=True 옵션 설정 (기존 코드에 이미 있음)
